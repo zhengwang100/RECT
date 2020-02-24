@@ -15,13 +15,13 @@ Usage (abstract):
 ```
 ------ evaluate RECT-N ---------
 Training an SVM classifier with the pre-defined split setting...
-(0.7335058214747736, 0.6760830503861163)
+(0.7335058214747736, 0.670830503861163)
 ------ evaluate RECT-L ---------
 Training an SVM classifier with the pre-defined split setting...
 (0.7141871496334627, 0.6402691559469643)
 ------ evaluate RECT ---------
 Training an SVM classifier with the pre-defined split setting...
-(0.7441138421733506, 0.6735281849343917)
+(0.7441138421733506, 0.6805281849343917)
 ```
 
 
