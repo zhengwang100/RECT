@@ -1,5 +1,5 @@
 # RECT (python source code)
-Network Embedding with Completely-imbalanced Labels. TKDE2020
+Network Embedding with Completely-imbalanced Labels. TKDE2020 [paper](https://zhengwang100.github.io/pdf/TKDE20_wzheng.pdf)
 
 Breifly, RECT contains two parts:
 ---
