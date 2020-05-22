@@ -34,6 +34,7 @@ If you find this useful in your research, please cit our paper, thx:
   author={Wang, Zheng and Ye, Xiaojun and Wang, Chaokun and Cui, Jian and Yu, Philip S},
   journal={TKDE},
   year={2020},
+  doi = {10.1109/TKDE.2020.2971490},
   publisher={IEEE}
 }
 ```
