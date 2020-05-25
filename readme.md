@@ -1,6 +1,6 @@
 # RECT (python source code)
 Network Embedding with Completely-imbalanced Labels. TKDE2020 [paper](https://zhengwang100.github.io/pdf/TKDE20_wzheng.pdf).
-This is a deep method for the problem of Zero-shot Graph Embedding (ZGE), i.e., graph embeddings when labeled data cannot cover all classes. 
+This is a deep method for the problem of [Zero-shot Graph Embedding (ZGE)](https://zhengwang100.github.io/project/zero_shot_graph_embedding.html), i.e., graph embeddings when labeled data cannot cover all classes. 
 
 Breifly, RECT contains two parts:
 ---
