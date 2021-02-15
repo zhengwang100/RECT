@@ -36,8 +36,10 @@ def svd_feature(features, d=200):
     return features
 
 def symmetrize(a):
-    #return a + a.T - sp.diags(a.diagonal())
-    return a + a.T - np.diag(a.diagonal())
+    ##return a + a.T - sp.diags(a.diagonal())
+    #return a + a.T - np.diag(a.diagonal())
+    a = a + a.T.multiply(a.T > a) - a.multiply(a.T > a)
+    return a.todense()
     
 def read_graph_as_matrix(nodeids, edge_file):
     ''' Read a symmetric adjacency matrix from a file 
