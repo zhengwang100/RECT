@@ -112,7 +112,7 @@ def read_node_label(filename):
     return X, Y
 
 def evaluate_embeddings_with_split(vectors, X_train, Y_train, X_test, Y_test, Y_all, testnum=10):
-    print("Training an SVM classifier with the pre-defined split setting...")
+    print("Training an SVM classifier under the pre-defined split setting...")
     #clf = Classifier(vectors=vectors, clf=LogisticRegression())
     clf = Classifier(vectors=vectors, clf=SVC(probability=True))
     micro_list = []; macro_list = []
